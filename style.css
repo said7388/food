@@ -1,0 +1,167 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.head-section {
+    display: flex;
+    background-image: url(images/head.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 100px;
+}
+.mid-section {
+    display: flex;
+    background-image: url(images/mid.jpg);
+    background-repeat: no-repeat;
+
+}
+.blog-section{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.review-section {
+    display: flex;
+    text-align: center;
+    padding: 60px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.footer-section {
+    background-color: rgb(9, 9, 10);
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    color: gray;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 50px;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(61, 60, 60);
+    text-transform: capitalize;
+}
+
+.header-img {
+    width: 85%;
+    box-align: right;
+    text-align: right;
+    align-content: right;
+}
+
+p {
+    color: gray;
+    text-align: justify center;
+}
+
+.button-link {
+    padding: 15px 30px 15px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #DA224D;
+    border-radius: 10px;
+}
+.button-link:hover{
+    padding: 15px 30px 15px;
+    margin-bottom: 10px;
+    color: #DA224D;
+    background-color: white;
+    border: 1px solid #DA224D;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700px;
+    box-shadow: 0px 5px 40px #DA224D;
+}
+
+.mid-img {
+    width: 50%;
+    box-align: right;
+    padding-left: 20%;
+}
+
+.mid-text {
+    padding-right: 15%;
+}
+
+.blog-header {
+    text-align: center;
+    padding-top: 50px;
+}
+.blog-text{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+.blog-post {
+    width: 33.33%;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 5px rgb(153, 152, 152);
+}
+.blog-post img {
+    width: 80%;
+    padding: 30px;
+    border-radius: 20px;
+}
+article {
+    padding: 10px;
+    padding-left: 15px;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    background-color: #DA224D;
+    overflow: hidden;
+}
+.navbar a{
+    float: right;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar a.active {
+    float: left;
+    padding-left: 100px;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.navbar a.active:hover{
+    background-color: #DA224D;
+    color: turquoise;
+}
+.navbar a:hover{
+    background-color: bisque;
+    color: #DA224D;
+}
+.review-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.review-post {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-justify: inherit;
+}
+.review-post p {
+    color: rgb(39, 38, 38);
+    font-size: 15px;
+}
+.review-header{
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: tomato;
+}
+
